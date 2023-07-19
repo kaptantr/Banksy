@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d0e396f6628b8149db9c6f6caf28718e",
+    "packages": [
+        {
+            "name": "mobiledetect/mobiledetectlib",
+            "version": "2.8.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serbanghita/Mobile-Detect.git",
+                "reference": "9841e3c46f5bd0739b53aed8ac677fa712943df7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/9841e3c46f5bd0739b53aed8ac677fa712943df7",
+                "reference": "9841e3c46f5bd0739b53aed8ac677fa712943df7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.35||~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Mobile_Detect.php"
+                ],
+                "psr-0": {
+                    "Detection": "namespaced/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serban Ghita",
+                    "email": "serbanghita@gmail.com",
+                    "homepage": "http://mobiledetect.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+            "homepage": "https://github.com/serbanghita/Mobile-Detect",
+            "keywords": [
+                "detect mobile devices",
+                "mobile",
+                "mobile detect",
+                "mobile detector",
+                "php mobile detect"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/serbanghita",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-19T21:22:57+00:00"
+        },
+        {
+            "name": "riverskies/laravel-mobile-detect",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/riverskies/laravel-mobile-detect.git",
+                "reference": "0ddb27d31a4a1148875424426b9feda6598f2f14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/riverskies/laravel-mobile-detect/zipball/0ddb27d31a4a1148875424426b9feda6598f2f14",
+                "reference": "0ddb27d31a4a1148875424426b9feda6598f2f14",
+                "shasum": ""
+            },
+            "require": {
+                "mobiledetect/mobiledetectlib": "^2.8"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.5.*",
+                "philo/laravel-blade": "^3.1",
+                "phpspec/prophecy-phpunit": "^1.1",
+                "phpunit/phpunit": "^6.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Riverskies\\Laravel\\MobileDetect\\MobileDetectServiceProvider"
+                    ],
+                    "aliases": {
+                        "MobileDetect": "Riverskies\\Laravel\\MobileDetect\\Facades\\MobileDetect"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Riverskies\\Laravel\\MobileDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Barnabas Kecskes",
+                    "email": "barnabas@riverskies.com"
+                }
+            ],
+            "description": "Instant mobile detection access directly from within Blade templates.",
+            "keywords": [
+                "blade",
+                "detection",
+                "laravel",
+                "mobile"
+            ],
+            "time": "2017-09-02T08:11:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

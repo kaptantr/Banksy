@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LastEditedFileState">
+    <option name="lastEditedMap">
+      <map>
+        <entry key="$PROJECT_DIR$/assets/frontend/css/nectar.css" value="1621546482855" />
+        <entry key="$PROJECT_DIR$/assets/frontend/css/style.css" value="1621529173172" />
+        <entry key="$PROJECT_DIR$/core/resources/views/dashboard/layouts/head.blade.php" value="1621529756090" />
+        <entry key="$PROJECT_DIR$/core/resources/views/frontEnd/home.blade.php" value="1621546600505" />
+        <entry key="$PROJECT_DIR$/core/resources/views/frontEnd/includes/footer.blade.php" value="1621531026855" />
+        <entry key="$PROJECT_DIR$/core/resources/views/frontEnd/includes/head.blade.php" value="1621534346652" />
+      </map>
+    </option>
+  </component>
+</project>

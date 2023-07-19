@@ -1,0 +1,5 @@
+{
+    "require": {
+        "riverskies/laravel-mobile-detect": "^1.3"
+    }
+}
